@@ -1,0 +1,157 @@
+body{
+    align-items: center;
+    background-color: white;
+    color:black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.top{
+    display:flex;
+    color: black;
+    background-color: white;
+    justify-content:start;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: 5px;
+    text-indent: 25px;
+    white-space: 10px;
+}
+
+.ul{
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-bottom: 10px;
+}
+
+.a1{
+    color:black;
+    font-size: smaller;
+    
+}
+
+.right{
+    margin-bottom:20px;
+    margin-top: -20px;
+    padding-left:500px;
+    padding-top: -10px;
+    padding-right: 10px;
+    white-space: 25px;
+    border-top: 0;
+    padding-top: 0;
+    align-items: end;
+    justify-content: end;
+}
+
+.btn-1{
+    color:white;
+    background-color: rgb(75, 68, 68);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 80px;
+    margin-top: -15px;
+    margin-left: 15px;
+    
+}
+
+.btn-1:hover{
+    color:white;
+    background-color: black;
+}
+
+header{
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}
+
+input{
+    margin:7px;
+    padding:3px;
+    width:200px;
+    height:20px;
+    margin-top: 30px;
+}
+
+.list{
+    display:flex;
+    padding-left: -12px;
+    margin-left: -15px;
+}
+
+li{
+    display:inline-block
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    font-weight:200;   
+}
+
+h1{
+    font-weight: 400;
+}
+
+.grey{
+    color: rgb(107, 103, 103);
+    font-weight:200;
+}
+
+.image{
+    width:120px;
+    height: 120px;
+}
+
+.a2{
+    color:rgb(107, 103, 103);
+    font-size: smaller;
+}
+
+.download{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn-2{
+    color:white;
+    background-color: rgb(51, 47, 47);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    height: 45px;
+    width: 150px;
+    margin-top: -15px;
+    margin-left: 15px;
+    font-size: larger;
+}
+
+.btn-2:hover{
+    color:white;
+    background-color: black;
+}
+
+
+h5{
+    color:rgb(107, 103, 103)
+}
+
